@@ -1,7 +1,7 @@
 public class Mobile {
-    public String name;
-    public String color;
-    public String brand;
+    private String name;
+    private String color;
+    private String brand;
 
     public String getName() {
         return name;
