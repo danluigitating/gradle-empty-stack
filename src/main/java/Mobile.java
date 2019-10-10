@@ -30,4 +30,8 @@ public class Mobile {
     public void call(String message){
         System.out.println("Message : " + message);
     }
+
+    public void getMobile(){
+        System.out.println("name: "+ getName() + ", color: "+ getColor() + ", brand: " +getBrand());
+    }
 }
