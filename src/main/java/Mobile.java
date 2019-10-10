@@ -31,7 +31,7 @@ public class Mobile {
         System.out.println("Message : " + message);
     }
 
-    public void getMobile(){
+    public void setMobile(){
         System.out.println("name: "+ getName() + ", color: "+ getColor() + ", brand: " +getBrand());
     }
 }

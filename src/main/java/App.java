@@ -14,6 +14,18 @@ public class App {
         m.setBrand("iOS");
         m.setColor("Blue");
 
-        m.getMobile();
+        m.setMobile();
+
+        Person p= new Person();
+        p.call(andriod, "Person Hello World");
+        p.call(iPhone, "Person Hello World");
+
+        p.call(andriod, "hell");
+        p.call(iPhone, "hello");
+
+        IPhoneRobot robot= new IPhoneRobot();
+        robot.call(iPhone, "HELLO");
+        //robot.call(andriod, "HELLO");
+
     }
 }
